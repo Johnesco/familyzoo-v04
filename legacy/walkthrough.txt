@@ -1,12 +1,4 @@
-look
-take map
-inventory
-south
-take penny
-inventory
-drop map
-look
-east
-take feed
-inventory
-take goats
+take zoo brochure
+i
+read zoo brochure
+drop zoo brochure

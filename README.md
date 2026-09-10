@@ -1,32 +1,30 @@
-# Family Zoo — v04 — Portable Objects
+# Family Zoo — v04: Portable Objects
 
-Introduces takeable items — a zoo map, a bag of feed, a souvenir penny — that the player can pick up, carry between rooms, and drop. Establishes that portability is the default and SceneryTrait is what removes it.
+The first things the player can carry: a brochure, a map, a souvenir penny. Also the first phrase block — the brochure's text is set verbatim so its layout survives.
 
-Step 4 of the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial — a progressive walkthrough of the [Sharpee](https://sharpee.net) TypeScript interactive fiction engine, from a single room to a full multi-file story.
+Step 4 of sixteen in the [Family Zoo](https://github.com/Johnesco/familyzoo) tutorial for [Chord](https://sharpee.net/chord/), the authoring language of the [Sharpee](https://sharpee.net) interactive fiction engine.
 
-## What this step teaches
+## What this step adds
 
-- EntityType.ITEM for portable objects
-- Built-in take, drop, inventory, and take all actions
-- Items traveling with the player automatically
-- Loose objects appearing in room listings
-- The portable-by-default design philosophy
+- A thing with no `scenery` is takeable by default
+- `readable` and `on the player reading`
+- `define phrase brochure-text, verbatim` — text kept exactly as written
+- TAKE, DROP and INVENTORY come from the standard library
 
-## Playing
+## The source
 
-Open `play.html`, or preview the folder:
+The whole step is one file: [`familyzoo-v04.story`](./familyzoo-v04.story) — the step before it plus the ideas above. The chapter that walks through it is [`docs/v04-portable-objects.md`](./docs/v04-portable-objects.md).
 
-```bash
-python -m http.server 8000 --directory familyzoo-v04
-```
-
-## Building
-
-This is a **frozen 0.9.x TypeScript version**. The built player in this folder is the published artifact; it is re-laid from `browser/` by the workspace build:
+## Playing and testing
 
 ```bash
-python ../tools/build.py familyzoo-v04
-python C:/code/ifhub/tools/ship.py familyzoo-v04
+npx sharpee play
+npx sharpee test          # replays familyzoo-v04.tests.json
+python ../tools/build.py familyzoo-v04 --force
 ```
 
-The authoring tree for every version lives in the [familyzoo](https://github.com/Johnesco/familyzoo) repo.
+## Engine
+
+Pinned to `@sharpee/*` **5.3.0** (Chord 3.6.0), held there by an `overrides` block: 5.3.1 publishes broken subpath exports and breaks `sharpee test`.
+
+The 0.9.x TypeScript edition this replaced is kept in [`legacy/`](./legacy).
