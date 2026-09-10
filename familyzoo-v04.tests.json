@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "story": "familyzoo-v04",
+  "seed": 42,
+  "cards": [
+    {
+      "type": "opening",
+      "assertions": {
+        "channels": [
+          {
+            "id": "info.title",
+            "is": "Family Zoo (v04 — Portable Objects)"
+          },
+          {
+            "id": "info.description",
+            "is": "Sharpee tutorial step 4 — things the player can take, carry and drop."
+          }
+        ]
+      }
+    },
+    {
+      "type": "boot",
+      "assertions": {
+        "contains": [
+          "Zoo Entrance",
+          "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "take zoo brochure",
+      "assertions": {
+        "contains": [
+          "Taken."
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "i",
+      "assertions": {
+        "contains": [
+          "You are carrying:",
+          "a zoo brochure"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "read zoo brochure",
+      "assertions": {
+        "contains": [
+          "WILLOWBROOK FAMILY ZOO — Your Guide",
+          "EXHIBITS:"
+        ]
+      }
+    },
+    {
+      "type": "turn",
+      "command": "drop zoo brochure",
+      "assertions": {
+        "contains": [
+          "Dropped."
+        ]
+      }
+    }
+  ]
+}
