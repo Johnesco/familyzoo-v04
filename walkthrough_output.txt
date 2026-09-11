@@ -3,8 +3,69 @@ Your family piles out of the car, buzzing with excitement — a whole day at the
 
 You can see a zoo brochure and a zoo map here.
 
-> take zoo brochure
+> look
+Zoo Entrance
+You stand before the wrought-iron gates of the Willowbrook Family Zoo. A cheerful welcome sign arches over the entrance, and a small ticket booth sits to one side. A sturdy iron fence runs along either side of the gates. The main path leads south into the zoo grounds.
+
+You can see a zoo brochure and a zoo map here.
+
+> x welcome sign
+A brightly painted wooden sign reads: "WELCOME TO WILLOWBROOK FAMILY ZOO."
+
+> x sign
+A brightly painted wooden sign reads: "WELCOME TO WILLOWBROOK FAMILY ZOO."
+
+> x ticket booth
+A small wooden booth with a "Self-Guided Tours" sign.
+
+> x booth
+A small wooden booth with a "Self-Guided Tours" sign.
+
+> x iron fence
+A tall wrought-iron fence with animal silhouettes.
+
+> x fence
+A tall wrought-iron fence with animal silhouettes.
+
+> x zoo brochure
+A glossy tri-fold brochure with "WILLOWBROOK FAMILY ZOO" on the cover.
+
+> read zoo brochure
+(first taking the zoo brochure)
+
 Taken.
+
+WILLOWBROOK FAMILY ZOO — Your Guide
+
+EXHIBITS:
+  Petting Zoo — East from Main Path
+  Aviary — West from Main Path
+  Gift Shop — West from Aviary
+  Nocturnal Animals — Staff Area
+
+"Where every visit is a wild adventure!"
+
+> i
+You are carrying:
+
+a zoo brochure
+
+> x brochure
+A glossy tri-fold brochure with "WILLOWBROOK FAMILY ZOO" on the cover.
+
+> x zoo map
+A colorful folding map of the Willowbrook Family Zoo.
+
+> i
+You are carrying:
+
+a zoo brochure
+
+> x map
+A colorful folding map of the Willowbrook Family Zoo.
+
+> take zoo brochure
+You already have the zoo brochure.
 
 > i
 You are carrying:
@@ -24,3 +85,151 @@ EXHIBITS:
 
 > drop zoo brochure
 Dropped.
+
+> south
+Main Path
+A wide gravel path winds through the heart of the zoo. Colorful direction signs point every which way. To the east, the petting zoo. To the west, the aviary. The entrance is back to the north.
+
+You can see a souvenir penny here.
+
+> x direction signs
+Arrow signs: PETTING ZOO (east), AVIARY (west), EXIT (north).
+
+> x signs
+Arrow signs: PETTING ZOO (east), AVIARY (west), EXIT (north).
+
+> x flower beds
+Tidy beds of marigolds and petunias.
+
+> x flowers
+Tidy beds of marigolds and petunias.
+
+> x souvenir penny
+A shiny copper penny.
+
+> i
+You aren't carrying anything at all.
+
+> x penny
+A shiny copper penny.
+
+> east
+Petting Zoo
+A cheerful open-air enclosure that smells of warm hay and fur. The main path is back to the west.
+
+> x hay bale
+A large round bale of golden hay.
+
+> x hay
+A large round bale of golden hay.
+
+> west
+Main Path
+A wide gravel path winds through the heart of the zoo. Colorful direction signs point every which way. To the east, the petting zoo. To the west, the aviary. The entrance is back to the north.
+
+You can see a souvenir penny here.
+
+> west
+Aviary
+You step inside a soaring mesh dome. A toucan eyes you curiously from a branch overhead, and rope perches crisscross the space. A small waterfall splashes into a stone basin. The main path is back to the east.
+
+> x toucan
+A Toco toucan with an enormous orange-and-black bill.
+
+> x toco toucan
+A Toco toucan with an enormous orange-and-black bill.
+
+> x waterfall
+A gentle artificial waterfall cascading into a stone basin.
+
+> x water
+A gentle artificial waterfall cascading into a stone basin.
+
+> x rope perches
+Thick sisal ropes strung between wooden posts.
+
+> x perches
+Thick sisal ropes strung between wooden posts.
+
+> east
+Main Path
+A wide gravel path winds through the heart of the zoo. Colorful direction signs point every which way. To the east, the petting zoo. To the west, the aviary. The entrance is back to the north.
+
+You can see a souvenir penny here.
+
+> north
+Zoo Entrance
+You stand before the wrought-iron gates of the Willowbrook Family Zoo. A cheerful welcome sign arches over the entrance, and a small ticket booth sits to one side. A sturdy iron fence runs along either side of the gates. The main path leads south into the zoo grounds.
+
+You can see a zoo map and a zoo brochure here.
+
+> take welcome sign
+The welcome sign is fixed in place.
+
+> take ticket booth
+The ticket booth is fixed in place.
+
+> take iron fence
+The iron fence is fixed in place.
+
+> take zoo brochure
+Taken.
+
+> drop zoo brochure
+Dropped.
+
+> take zoo map
+Taken.
+
+> drop zoo map
+Dropped.
+
+> south
+Main Path
+A wide gravel path winds through the heart of the zoo. Colorful direction signs point every which way. To the east, the petting zoo. To the west, the aviary. The entrance is back to the north.
+
+You can see a souvenir penny here.
+
+> take direction signs
+The direction signs are fixed in place.
+
+> take flower beds
+The flower beds are fixed in place.
+
+> take souvenir penny
+Taken.
+
+> drop souvenir penny
+Dropped.
+
+> east
+Petting Zoo
+A cheerful open-air enclosure that smells of warm hay and fur. The main path is back to the west.
+
+> take hay bale
+The hay bale is fixed in place.
+
+> west
+Main Path
+A wide gravel path winds through the heart of the zoo. Colorful direction signs point every which way. To the east, the petting zoo. To the west, the aviary. The entrance is back to the north.
+
+You can see a souvenir penny here.
+
+> west
+Aviary
+You step inside a soaring mesh dome. A toucan eyes you curiously from a branch overhead, and rope perches crisscross the space. A small waterfall splashes into a stone basin. The main path is back to the east.
+
+> take toucan
+The toucan is fixed in place.
+
+> take waterfall
+The waterfall is fixed in place.
+
+> take rope perches
+The rope perches are fixed in place.
+
+> score
+This isn't that kind of game.
+
+> inventory
+You aren't carrying anything at all.
