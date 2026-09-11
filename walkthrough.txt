@@ -7,10 +7,8 @@ x iron fence
 x fence
 x zoo brochure
 read zoo brochure
-i
 x brochure
 x zoo map
-i
 x map
 take zoo brochure
 i
@@ -22,7 +20,6 @@ x signs
 x flower beds
 x flowers
 x souvenir penny
-i
 x penny
 east
 x hay bale
@@ -57,4 +54,3 @@ take toucan
 take waterfall
 take rope perches
 score
-inventory

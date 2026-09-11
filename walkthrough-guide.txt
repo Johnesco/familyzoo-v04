@@ -7,7 +7,7 @@
 # to, and any verb the story defines itself. Refusals are coverage too
 # — taking scenery should fail, and the transcript records that it did.
 #
-# 4 of 4 rooms swept, 12 of 13 things exercised, 60 commands.
+# 4 of 4 rooms swept, 12 of 13 things exercised, 56 commands.
 #
 # Not exercised — held inside a closed thing, carried from the
 # start, or the player character itself: Alex.
@@ -23,10 +23,8 @@
 > x fence
 > x zoo brochure
 > read zoo brochure
-> i
 > x brochure
 > x zoo map
-> i
 > x map
 > take zoo brochure
 > i
@@ -41,7 +39,6 @@
 > x flower beds
 > x flowers
 > x souvenir penny
-> i
 > x penny
 
 ## Petting Zoo
@@ -103,4 +100,3 @@
 > take waterfall
 > take rope perches
 > score
-> inventory
