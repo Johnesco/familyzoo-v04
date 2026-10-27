@@ -1,10 +1,6 @@
 {
-  "version": 1,
-  "story": "familyzoo-v04",
-  "seed": 42,
   "cards": [
     {
-      "type": "opening",
       "assertions": {
         "channels": [
           {
@@ -16,54 +12,62 @@
             "is": "Sharpee tutorial step 4 — things the player can take, carry and drop."
           }
         ]
-      }
+      },
+      "id": "wv6hzfk2",
+      "type": "opening"
     },
     {
-      "type": "boot",
       "assertions": {
         "contains": [
           "Zoo Entrance",
           "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
         ]
-      }
+      },
+      "id": "ioebszs3",
+      "type": "boot"
     },
     {
-      "type": "turn",
-      "command": "take zoo brochure",
       "assertions": {
         "contains": [
           "Taken."
         ]
-      }
+      },
+      "command": "take zoo brochure",
+      "id": "dhwach7z",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "i",
       "assertions": {
         "contains": [
           "You are carrying:",
           "a zoo brochure"
         ]
-      }
+      },
+      "command": "i",
+      "id": "hteo9c8j",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "read zoo brochure",
       "assertions": {
         "contains": [
           "WILLOWBROOK FAMILY ZOO — Your Guide",
           "EXHIBITS:"
         ]
-      }
+      },
+      "command": "read zoo brochure",
+      "id": "s1cgmjly",
+      "type": "turn"
     },
     {
-      "type": "turn",
-      "command": "drop zoo brochure",
       "assertions": {
         "contains": [
           "Dropped."
         ]
-      }
+      },
+      "command": "drop zoo brochure",
+      "id": "g8yexg4z",
+      "type": "turn"
     }
-  ]
+  ],
+  "id": "udkjz8hj"
 }
