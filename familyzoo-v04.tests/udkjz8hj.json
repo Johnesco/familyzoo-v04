@@ -11,20 +11,14 @@
             "id": "info.description",
             "is": "Sharpee tutorial step 4 — things the player can take, carry and drop."
           }
-        ]
-      },
-      "id": "wv6hzfk2",
-      "type": "opening"
-    },
-    {
-      "assertions": {
+        ],
         "contains": [
           "Zoo Entrance",
           "Your family piles out of the car, buzzing with excitement — a whole day at the zoo! You st"
         ]
       },
-      "id": "ioebszs3",
-      "type": "boot"
+      "id": "wv6hzfk2",
+      "type": "opening"
     },
     {
       "assertions": {
